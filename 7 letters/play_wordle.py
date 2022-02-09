@@ -18,8 +18,9 @@ def main():
 			print(Fore.RED + f"Word must be {wordle.WORD_LENGTH} characters long" + Fore.RESET)
 			continue 
 		if not x in word_set:
+			print("Invalid word!")
 			print(
-				Fore.RED+ f"NOTE: If it is a valid word, please note that this dataset consists of only 1447 words."+
+				Fore.RED+ f"NOTE: If it is a valid word, please note that this data set consists of only 1447 words.\n"+
 				"If you do come across a larger data set, please contribute to https://github.com/aprakash7/wordle! :)" + Fore.RESET)
 			continue
 
