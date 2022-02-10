@@ -31,7 +31,7 @@ def main():
 		else:
 			print(f"You have completed the puzzle in {len(wordle.attempts)} attempts!")
 	else:
-		print("Your failed!")
+		print("You failed!")
 		print(f"The secret word was: {wordle.secret} ")
 
 #displays the result
